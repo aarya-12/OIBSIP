@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Joan', serif;
+  }
+  
+  body {
+
+    height: 100%;
+    margin: 0;
+    font-size: 17px;
+  } .navigation{
+    padding-top:30px;
+    padding-bottom:20px;
+    position:absolute;
+    top:0;
+    width:100%;
+    z-index:1;
+    background-color: rgba(0,0,0,0.3); /** Change value according to you transperncy**/
+  }
+  
+  .navbar-right{
+    float:right;
+    padding-right:10%;
+  }
+  
+  .navbar-right a{
+    text-decoration:none;
+    padding:10px;
+    color: #fff;
+    font-weight:900;
+  }
+  
+  .navbar-right a:hover{
+    text-decoration: none;
+    color: rgb(105, 202, 224);
+    padding: 30px;
+  }
+  .navbar-logo{
+    padding-left:10%;
+    font-size:30px;
+    font-weight:bold;
+    text-decoration:none;
+    color:#fff; 
+  }
+
+/* dropdpwn*/
+.dropbtn {
+
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: tra;
+  min-width: 160px;
+  box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 8px 8px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown-content a:hover{
+
+  background: #dc3545;
+  color: white;
+}
+.dropdown:hover .dropbtn {
+  text-decoration: none;
+  color: rgb(105, 202, 224);
+  padding: 30px;}
+  /* covid alert*/
+
+.alertbar { 
+    background-color: #ff00007e; 
+    color: #ffffff8e; 
+    display: block; 
+    line-height: 25px;
+    height: 25px; 
+    position: relative; 
+    text-align: center; 
+    text-decoration: none; 
+    top: 0px; 
+    width: 100%;
+    z-index: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+  }
+  .alertbar a {
+    color: #ffffff8e;
+    text-decoration: none;
+    font-weight: 400;
+  }
+  .ImageContainer{
+    position: relative;
+   
+}
+.TextBlock{
+    position: absolute;
+    top: 100px;
+    left: 750px;
+    background-color: #6A2A19;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    opacity: 0.8;
+    font-size: 17px;
+}
+form.register{
+    margin: 40px;
+}
+
+label {
+    font-size: 18px;
+
+    font-family: 'Joan', serif;
+}
+
+input#name{
+    width: 300px ;
+    border: 1px solid #ddd ;
+    border-radius: 3px ;
+    outline: 0 ;
+    padding: 7px ;
+    background-color: #fff ;
+    box-shadow :inset 1px 1px 5px rgba( 0,0,0,0.3 ) ;
+}
+
+input#submit {
+    width: 200px ;
+    padding: 7px ;
+    font-size: 18px ;
+    font-family: sans - serif ;
+    font-weight : 600 ;
+    border-radius: 3px ;
+    background-color: rgba(180, 99, 70, 0.8) ;
+    color: #fff ;
+    cursor: pointer ;
+    border: 1px solid rgba( 255,255,255,0.3 ) ;
+    box-shadow: 1px 1px 5px rgba( 0,0,0,0.3 ) ;
+    margin-bottom: 20px;
+}

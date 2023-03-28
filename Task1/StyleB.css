@@ -1,0 +1,316 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Joan', serif;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+  }
+  /*for nav bar*/
+ 
+  .navigation{
+    padding-top:30px;
+    padding-bottom:20px;
+    position:absolute;
+    top:0;
+    width:100%;
+    z-index:1;
+    background-color: rgba(0,0,0,0.3); /** Change value according to you transperncy**/
+  }
+  
+  .navbar-right{
+    float:right;
+    padding-right:10%;
+  }
+  
+  .navbar-right a{
+    text-decoration:none;
+    padding:10px;
+    color: #fff;
+    font-weight:900;
+  }
+  
+  .navbar-right a:hover{
+    text-decoration: none;
+    color: rgb(105, 202, 224);
+    padding: 30px;
+  }
+  .navbar-logo{
+    padding-left:10%;
+    font-size:30px;
+    font-weight:bold;
+    text-decoration:none;
+    color:#fff; 
+  }
+  /*dropdown*/
+  .dropbtn {
+
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+  
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: tra;
+    min-width: 160px;
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 8px 8px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown-content a:hover{
+  
+    background: #dc3545;
+    color: white;
+  }
+  .dropdown:hover .dropbtn {
+    text-decoration: none;
+    color: rgb(105, 202, 224);
+    padding: 30px;}
+  
+  
+ .TextBlock{
+    
+        position: absolute;
+        top: 150px;
+        left: 570px;
+        background-color: #6A2A19;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        opacity: 0.8;
+        font-size: 17px;
+ }
+ .TextBlock2{
+    margin: 25px 50px;
+    font-size: 20px;
+}
+.TextBlock2 h2{
+    color: #6A2A19;
+}
+.TextBlock3 {
+    position: absolute;
+    top: 1400px;
+    left: 275px;
+    font-size: 20px;
+
+}
+.TextBlock3 h2{
+    color: #6A2A19;
+}
+  /*video*/
+  /*button*/
+  
+
+
+          
+          @-webkit-keyframes extend {
+              0% {
+                  width: 600px;
+                  height: 100px;
+                  border-radius: 100px;
+                  } 10% {
+                  width: 610px;
+                  height: 100px;
+                  background: #fff;
+                  margin-left: - 5px;
+                  margin-top: - 5px;
+                  } 20% {
+                  width: 600px;
+                  height: 100px;
+                  background: #6fb07f;
+                  margin-left: 0px;
+                  margin-top: 0px;
+                  } 100% {
+                  width: 200px;
+                  height: 200px;
+                  border-radius: 100px;
+                  margin-left: 190px;
+                  background: #6fb07f;
+                  }
+              }
+          @keyframes extend {
+              0% {
+                  width: 600px;
+                  height: 200px;
+                  border-radius: 100px;
+                  } 10% {
+                  width: 610px;
+                  height: 210px;
+                  background: #fff;
+                  margin-left: - 5px;
+                  margin-top: - 5px;
+                  } 20% {
+                  width: 600px;
+                  height: 200px;
+                  background: #6fb07f;
+                  margin-left: 0px;
+                  margin-top: 0px;
+                  } 100% {
+                  width: 200px;
+                  height: 200px;
+                  border-radius: 100px;
+                  margin-left: 190px;
+                  background: #6fb07f;
+                  }
+              }
+          
+          @-webkit-keyframes disappear {
+              0% {
+                  opacity: 1;
+                  } 20% {
+                  color: #fff;
+                  } 100% {
+                  opacity: 0;
+                  }
+              }
+          @keyframes disappear {
+              0% {
+                  opacity: 1;
+                  } 20% {
+                  color: #fff;
+                  } 100% {
+                  opacity: 0;
+                  }
+                      }
+          @-webkit-keyframes appear {
+              0% {
+                  opacity: 0;
+                  } 70% {
+                  opacity: 0;
+                  } 100% {
+                  opacity: 1;
+                  }
+              }
+          @keyframes appear {
+              0% {
+                  opacity: 0;
+                  } 70% {
+                  opacity: 0;
+                  } 100% {
+                  opacity: 1;
+                  }
+              }
+          
+          
+          input, button, submit {
+              border: none
+              }
+          
+          .cont {
+              position: absolute;
+              width: 600px;
+              height: 10px;
+              left: 50%;
+              top: 50%;
+              margin: -100px 0 0 -300px
+              }
+          
+          .btn {
+              border-width: 1px;
+              width: 600px;
+              height: 100px;
+              /*border-radius*/
+              border-radius: 100px;
+              background: #fff;
+              position: absolute;
+              border: 5px solid #6fb07f
+              }
+          
+          .btn > span {
+              font-size: 48px;
+              color: #6fb07f
+              }
+          
+          
+          .btn:focus {
+              /*animation*/
+              -webkit-animation: extend 1s ease-in-out;
+              -ms-animation: extend 1s ease-in-out;
+              animation: extend 1s ease-in-out;
+              -webkit-animation-fill-mode: forwards;
+              /* Chrome, Safari, Opera */
+              animation-fill-mode: forwards
+              }
+          
+          .btn:focus > span {
+              /*animation*/
+              -webkit-animation: disappear 1s ease-in-out;
+              -ms-animation: disappear 1s ease-in-out;
+              animation: disappear 1s ease-in-out;
+              -webkit-animation-fill-mode: forwards;
+              /* Chrome, Safari, Opera */
+              animation-fill-mode: forwards
+              }
+          
+          .btn:focus > .img2 {
+              /*animation*/
+              -webkit-animation: appear 1s ease-in-out;
+              -ms-animation: appear 1s ease-in-out;
+              animation: appear 1s ease-in-out;
+              -webkit-animation-fill-mode: forwards;
+              /* Chrome, Safari, Opera */
+              animation-fill-mode: forwards
+              }
+              html {
+                background: #fff
+                }
+                .img2 {
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  right: 0;
+                  bottom: 0;
+                  margin: auto;
+                  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+                  filter: alpha(opacity=0);
+                  opacity: 0
+                  }
+            /* covid alert*/
+
+.alertbar { 
+  background-color: #ff00007e; 
+  color: #ffffff8e; 
+  display: block; 
+  line-height: 25px;
+  height: 25px; 
+  position: relative; 
+  text-align: center; 
+  text-decoration: none; 
+  top: 0px; 
+  width: 100%;
+  z-index: 100;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+.alertbar a {
+  color: #ffffff8e;
+  text-decoration: none;
+  font-weight: 400;
+}
+.ImageContainer{
+  position: relative;
+}
