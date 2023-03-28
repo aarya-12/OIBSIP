@@ -1,0 +1,38 @@
+*{
+    font-family: 'Mulish', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 85vh;
+    background-color: aliceblue;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+}
+.btn {
+    background-color: blue;
+}
+#fa{
+    font-size: 60px;
+}
+
+form{
+    background-color: rgb(114, 168, 250);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+    border-radius: 10px;
+}
+
+#tempCalc label{
+    font-size: 30px;
+}
+
+#resultContainer{
+    font-size: 35px;
+}
